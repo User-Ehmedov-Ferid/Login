@@ -1,0 +1,53 @@
+#login{
+    width: 1000px;
+    height: 500px;
+    background-color: rgba(245, 245, 245, 0.664);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid rgb(138, 135, 135) 2px;
+}
+#login #img{
+    width: 500px;
+    height: 500px;
+}
+#login #img #login-img{
+    width: 100%;
+    height: 99.2%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("symbols-come-out-bulb-top-book.jpg");
+    
+}
+#login #img #create1{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 60%;
+    top: 10%;
+    
+}
+#login #img #create1 form{
+    width: 100%;
+    height: 100%;
+}
+#login #img #create1 form div input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #adadad;
+    background: none;
+
+}
+#login #img #create1 form p .btn{
+    background-color: #c1c1c2;
+    color: white;
+    
+    transition: all 0.7s ease;
+}
+#login #img #create1 form p:hover .btn{
+    background-color: #26272b;
+    color: whitesmoke;
+    box-shadow:  #f5d09c 6px 8px;
+}
